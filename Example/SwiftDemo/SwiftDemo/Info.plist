@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>FacebookDisplayName</key>
+	<string>Studio Tone It Up</string>
+	<key>FacebookAppID</key>
+	<string>192033387987185</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -25,9 +29,8 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>&lt;Your site name&gt;</string>
-				<string>fb&lt;Your facebook appid&gt;</string>
-				<string>&lt;Your google REVERSED_CLIENT_ID&gt;</string>
+				<string>toneitup-dev</string>
+				<string>fb192033387987185</string>
 			</array>
 		</dict>
 	</array>

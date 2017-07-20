@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		159BF6341ECBBD9000BCBEDF /* FullDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159BF6331ECBBD9000BCBEDF /* FullDetailViewController.swift */; };
 		6802EC941CED883400D3BF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802EC691CED883400D3BF22 /* AppDelegate.swift */; };
-		681005671E5C47160097BE26 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 681005661E5C47160097BE26 /* LoginRadius.plist */; };
 		682D11631CEC5314009274E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682D11621CEC5314009274E2 /* ViewController.swift */; };
 		682D11661CEC5314009274E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D11641CEC5314009274E2 /* Main.storyboard */; };
 		682D11681CEC5314009274E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682D11671CEC5314009274E2 /* Assets.xcassets */; };
 		682D116B1CEC5314009274E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D11691CEC5314009274E2 /* LaunchScreen.storyboard */; };
 		6830081F1CECF78A000E43DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830081E1CECF78A000E43DC /* DetailViewController.swift */; };
+		81CF0FCC1F204E8100B777D7 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */; };
+		81CF0FCE1F204EB400B777D7 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */; };
 		C97F1F10CFF589D1288DC327 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +37,6 @@
 		159BF6331ECBBD9000BCBEDF /* FullDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullDetailViewController.swift; sourceTree = "<group>"; };
 		35A981D5162E3808D1245BEB /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6802EC691CED883400D3BF22 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		681005661E5C47160097BE26 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LoginRadius.plist; sourceTree = "<group>"; };
 		682D115D1CEC5314009274E2 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682D11621CEC5314009274E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		682D11651CEC5314009274E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		682D116A1CEC5314009274E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		682D116C1CEC5314009274E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6830081E1CECF78A000E43DC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LoginRadius.plist; path = "../../../toneitup-IOS/ToneItUp/ToneItUp/LoginRadius.plist"; sourceTree = "<group>"; };
+		81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LoginRadius.plist; path = ../LoginRadius.plist; sourceTree = "<group>"; };
 		B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 		1602FED2A5744A81FF9BF09C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */,
 				B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */,
 			);
 			name = Frameworks;
@@ -105,7 +108,7 @@
 				682D11671CEC5314009274E2 /* Assets.xcassets */,
 				682D11691CEC5314009274E2 /* LaunchScreen.storyboard */,
 				682D116C1CEC5314009274E2 /* Info.plist */,
-				681005661E5C47160097BE26 /* LoginRadius.plist */,
+				81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					682D115C1CEC5314009274E2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BZHKC9BEET;
 						LastSwiftMigration = 0820;
 					};
 				};
@@ -173,10 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681005671E5C47160097BE26 /* LoginRadius.plist in Resources */,
 				682D116B1CEC5314009274E2 /* LaunchScreen.storyboard in Resources */,
+				81CF0FCE1F204EB400B777D7 /* LoginRadius.plist in Resources */,
 				682D11681CEC5314009274E2 /* Assets.xcassets in Resources */,
 				682D11661CEC5314009274E2 /* Main.storyboard in Resources */,
+				81CF0FCC1F204E8100B777D7 /* LoginRadius.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		387CE78499F9DD04C0A399F1 /* [CP] Copy Pods Resources */ = {
@@ -361,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BZHKC9BEET;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -382,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = BZHKC9BEET;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

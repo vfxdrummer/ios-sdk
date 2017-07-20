@@ -21,9 +21,9 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
   - Eureka (3.0.0)
-  - FBSDKCoreKit (4.19.0):
+  - FBSDKCoreKit (4.24.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.19.0):
+  - FBSDKLoginKit (4.24.0):
     - FBSDKCoreKit
   - LoginRadiusSDK (3.4.0):
     - AFNetworking (~> 3.1)
@@ -41,27 +41,27 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   LoginRadiusSDK:
-    :path: ./
+    :path: "./"
   SwiftyJSON:
     :branch: master
     :git: https://github.com/IBM-Swift/SwiftyJSON.git
 
 CHECKOUT OPTIONS:
   SwiftyJSON:
-    :commit: d5f2741e9293775d3b245a4c07fd3d2435b630d9
+    :commit: 2bdc9d111f320baf93e644e6fced465da9bd5bac
     :git: https://github.com/IBM-Swift/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
-  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
-  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
-  LoginRadiusSDK: 7f02d401885c3f055509796e74b109ad42783c08
+  FBSDKCoreKit: f8c9eb0dd34a9cd277c7b60da4b32226d142502d
+  FBSDKLoginKit: 1214c6d5a1c4995b694d8db8a9ba6910c6028acf
+  LoginRadiusSDK: 303871565c9d859e81b634e30c9364d8ff24543b
   NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
   OAuthCore: 43dce261db846a1fe20234d95654257e00e78581
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: d11e6fdae48f4c4b55ed67b3e007c23627aa6321
+PODFILE CHECKSUM: c4a77de9d25d80bd40152b333afa01fddef714bd
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.2.0
