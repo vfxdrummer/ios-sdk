@@ -14,8 +14,7 @@
 		682D11681CEC5314009274E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682D11671CEC5314009274E2 /* Assets.xcassets */; };
 		682D116B1CEC5314009274E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D11691CEC5314009274E2 /* LaunchScreen.storyboard */; };
 		6830081F1CECF78A000E43DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830081E1CECF78A000E43DC /* DetailViewController.swift */; };
-		81CF0FCC1F204E8100B777D7 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */; };
-		81CF0FCE1F204EB400B777D7 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */; };
+		81CF0FD01F206C5F00B777D7 /* LoginRadius.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CF0FCF1F206C5F00B777D7 /* LoginRadius.plist */; };
 		C97F1F10CFF589D1288DC327 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +43,7 @@
 		682D116A1CEC5314009274E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		682D116C1CEC5314009274E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6830081E1CECF78A000E43DC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LoginRadius.plist; path = "../../../toneitup-IOS/ToneItUp/ToneItUp/LoginRadius.plist"; sourceTree = "<group>"; };
-		81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LoginRadius.plist; path = ../LoginRadius.plist; sourceTree = "<group>"; };
+		81CF0FCF1F206C5F00B777D7 /* LoginRadius.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LoginRadius.plist; sourceTree = SOURCE_ROOT; };
 		B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 		1602FED2A5744A81FF9BF09C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81CF0FCB1F204E8100B777D7 /* LoginRadius.plist */,
 				B1154E97D2B33DDB11D6CF44 /* Pods_SwiftDemo.framework */,
 			);
 			name = Frameworks;
@@ -100,6 +97,7 @@
 		682D115F1CEC5314009274E2 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81CF0FCF1F206C5F00B777D7 /* LoginRadius.plist */,
 				6802EC691CED883400D3BF22 /* AppDelegate.swift */,
 				682D11621CEC5314009274E2 /* ViewController.swift */,
 				6830081E1CECF78A000E43DC /* DetailViewController.swift */,
@@ -108,7 +106,6 @@
 				682D11671CEC5314009274E2 /* Assets.xcassets */,
 				682D11691CEC5314009274E2 /* LaunchScreen.storyboard */,
 				682D116C1CEC5314009274E2 /* Info.plist */,
-				81CF0FCD1F204EB400B777D7 /* LoginRadius.plist */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -177,11 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CF0FD01F206C5F00B777D7 /* LoginRadius.plist in Resources */,
 				682D116B1CEC5314009274E2 /* LaunchScreen.storyboard in Resources */,
-				81CF0FCE1F204EB400B777D7 /* LoginRadius.plist in Resources */,
 				682D11681CEC5314009274E2 /* Assets.xcassets in Resources */,
 				682D11661CEC5314009274E2 /* Main.storyboard in Resources */,
-				81CF0FCC1F204E8100B777D7 /* LoginRadius.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
