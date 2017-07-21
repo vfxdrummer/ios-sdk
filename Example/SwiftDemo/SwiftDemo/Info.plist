@@ -5,7 +5,7 @@
 	<key>FacebookDisplayName</key>
 	<string>Studio Tone It Up</string>
 	<key>FacebookAppID</key>
-	<string>192033387987185</string>
+	<string>422388838155064</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -30,7 +30,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>toneitup-dev</string>
-				<string>fb192033387987185</string>
+				<string>fb422388838155064</string>
 			</array>
 		</dict>
 	</array>
